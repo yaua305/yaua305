@@ -1,0 +1,33 @@
+html {
+}
+body {
+  /* height: 100%; */
+  width: 100%;
+}
+.bt {
+  cursor: pointer;
+  display: flex;
+  margin: 240px 320px;
+}
+.bt:hover {
+  opacity: 0.8;
+}
+
+.bt--ON {
+  background-color: greenyellow;
+  color: #fff;
+  width: 313px;
+  height: 65px;
+  border-radius: 20px;
+  margin: auto;
+  margin-top: 200px;
+}
+.bt--OFF {
+  background-color: red;
+  color: #fff;
+  width: 313px;
+  height: 65px;
+  border-radius: 20px;
+  margin: auto;
+  margin-top: 50px;
+}
